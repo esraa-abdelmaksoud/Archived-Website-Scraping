@@ -1,5 +1,5 @@
 # Archived-Website-Scraping
-This repository contains a Python script that scrapes blog posts from the internet archive and saves them as JSON files in a specified directory. The script uses the requests, re, bs4, markdownify, datetime, and json modules.
+This repository contains a Python script that scrapes certain blog posts in 27 URLs from the internet archive and saves them as JSON files in a specified directory. The script uses the requests, re, bs4, markdownify, datetime, and json modules.
 
 ## Getting Started
 To use this script, follow the steps below:
