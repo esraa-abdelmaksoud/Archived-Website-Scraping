@@ -5,12 +5,12 @@ This repository contains a Python script that scrapes certain blog posts in 27 U
 To use this script, follow the steps below:
 Clone this repository to your local machine.
 Install the required modules by running pip install -r requirements.txt in your terminal.
-Modify the urls and json_path variables in the script to scrape the desired URLs and save the JSON files to the desired directory.
+Modify the urls and json_path variables in the script to scrape the desired URLs and save the JSON and markdown files to the desired directory.
 Run the script using the command python main.py in your terminal.
 
 ## Code Overview
 The main script, main.py, contains three functions:
-write_to_file(posts_dict, json_path): writes a Python dictionary to a JSON file at the specified path.
+write_to_file(posts_dict, json_path): writes a Python dictionary to a JSON file and markdown files at the specified path.
 clean_date(raw_date): converts a date string to ISO 8601 format.
 scrape_urls(urls): scrapes the specified URLs and saves the resulting blog posts as JSON files.
 
